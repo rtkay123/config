@@ -1,5 +1,5 @@
 local set = vim.opt
-set.laststatus = 0 -- remove status bar
+-- set.laststatus = 0 -- remove status bar
 set.nu = true
 set.rnu = true
 set.showmode = false
