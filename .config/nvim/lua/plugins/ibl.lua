@@ -4,6 +4,6 @@ return {
   ---@module "ibl"
   ---@type ibl.config
   opts = {
-    indent = { highlight = highlight, char = "." }
-  }
+    indent = { highlight = highlight, char = "." },
+  },
 }

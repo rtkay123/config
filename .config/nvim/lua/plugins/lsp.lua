@@ -39,9 +39,9 @@ return {
     },
     config = function()
       for key, value in pairs(lsp) do
-        if key ~= 'rust_analyzer' then -- rustacean handles this
-          require("lspconfig")[key].setup(value)
-        end
+        --        if key ~= 'rust_analyzer' then -- rustacean handles this
+        require("lspconfig")[key].setup(value)
+        --       end
       end
     end
   },
